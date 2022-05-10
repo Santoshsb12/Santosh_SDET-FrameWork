@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="123" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.contactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="contactTest" class="com.crm.elotto.contactTest.ContactTest"/>
+        <method signature="OrganisationTest.createorgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="createorgTest" class="com.crm.elotto.OrganisationTest.OrganisationTest"/>
+        <method signature="SampleTest.createsampTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="createsampTest" class="com.crm.elotto.SampleTest.SampleTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ContactTest.deletecontactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="deletecontactTest" class="com.crm.elotto.contactTest.ContactTest"/>
+        <method signature="ContactTest.editcontactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="editcontactTest" class="com.crm.elotto.contactTest.ContactTest"/>
+        <method signature="OrganisationTest.deleteOrgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="deleteOrgTest" class="com.crm.elotto.OrganisationTest.OrganisationTest"/>
+        <method signature="OrganisationTest.editOrgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="editOrgTest" class="com.crm.elotto.OrganisationTest.OrganisationTest"/>
+        <method signature="SampleTest.deleteSampleTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="deleteSampleTest" class="com.crm.elotto.SampleTest.SampleTest"/>
+        <method signature="SampleTest.editSampleTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="editSampleTest" class="com.crm.elotto.SampleTest.SampleTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="123" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+      <class name="com.crm.elotto.OrganisationTest.OrganisationTest">
+        <test-method status="PASS" signature="createorgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="createorgTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgTest -->
+        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="deleteOrgTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrgTest -->
+        <test-method status="PASS" signature="editOrgTest()[pri:0, instance:com.crm.elotto.OrganisationTest.OrganisationTest@59ec2012]" name="editOrgTest" duration-ms="1" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrgTest -->
+      </class> <!-- com.crm.elotto.OrganisationTest.OrganisationTest -->
+      <class name="com.crm.elotto.contactTest.ContactTest">
+        <test-method status="PASS" signature="contactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="contactTest" duration-ms="10" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method status="PASS" signature="deletecontactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="deletecontactTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecontactTest -->
+        <test-method status="PASS" signature="editcontactTest()[pri:0, instance:com.crm.elotto.contactTest.ContactTest@402a079c]" name="editcontactTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcontactTest -->
+      </class> <!-- com.crm.elotto.contactTest.ContactTest -->
+      <class name="com.crm.elotto.SampleTest.SampleTest">
+        <test-method status="PASS" signature="createsampTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="createsampTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createsampTest -->
+        <test-method status="PASS" signature="deleteSampleTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="deleteSampleTest" duration-ms="1" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSampleTest -->
+        <test-method status="PASS" signature="editSampleTest()[pri:0, instance:com.crm.elotto.SampleTest.SampleTest@4cf777e8]" name="editSampleTest" duration-ms="0" started-at="2022-05-10T17:31:49 IST" finished-at="2022-05-10T17:31:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editSampleTest -->
+      </class> <!-- com.crm.elotto.SampleTest.SampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
